@@ -1,0 +1,112 @@
+:root{
+    --color-gris:#5E5E38;
+    --color-naranja:#775504;
+    --color-negro: #43464C;
+    --color-piel: #A09E79;
+    --color-verde: #4C6427;
+	--color-background: #e1e2e3;
+	--color-dark: #333;
+	--color-letter: #585858;
+}
+
+input {
+	display: none;
+}
+
+label {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+    cursor: pointer;
+}
+
+.radio-button {
+	width: 20px;
+	height: 20px;
+	background-color: #d2cece;
+	display: inline-block;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	position: relative;
+}
+
+/*COLORES*/
+.radio-button::after {
+	content: '';
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.radio-button-1::after {
+	content: '';
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: var(--color-gris);
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.radio-button-2::after {
+	content: '';
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: var(--color-naranja);
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.radio-button-3::after {
+	content: '';
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: var(--color-negro);
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.radio-button-4::after {
+	content: '';
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: var(--color-piel);
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.radio-button-5::after {
+	content: '';
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: var(--color-verde);
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+input + label .radio-button:active{
+	background-color: rgb(210, 194, 194);
+}
+
+input:checked + label .radio-button {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}

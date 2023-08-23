@@ -1,0 +1,81 @@
+.block__detail{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 15px 0 60px;
+}
+.block__price{
+    width: 28%;
+    margin-right: 100px;
+    /* background-color: red; */
+    /* height: 300px;*/
+}
+.price_title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.price_title h1{
+    font-size: 35px;
+}
+.price_title span{
+    font-size: 25px;
+}
+.space__form{
+    margin-bottom: 20px;
+}
+.space__btn{
+    margin-bottom: 18px;
+}
+#form button{
+    background-color: transparent;
+    width: 200px;
+    font-size: 17px;
+    text-align: left;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 8px 3px 0;
+}
+#form span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#form select{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    appearance: none;
+    background: url('../img/arrow.png') no-repeat 298px 3px !important;
+    background-repeat: no-repeat;
+    
+    /* background-size: 40px; */
+}
+#form button:nth-child(1):hover{
+    color: #775504;
+}
+.btn__form{
+    display: flex;
+    /* background-color: green; */
+    justify-content: space-between;
+}
+.btn__form #btn__form__color{
+    background-color: #AEA260;
+    text-align: center;
+    margin-right: 10px;
+    width: 290px;
+}
+.btn__form #btn__form__color2{
+    /* background-color: yellow; */
+    padding-right: 0;
+    text-align: right;
+    
+}

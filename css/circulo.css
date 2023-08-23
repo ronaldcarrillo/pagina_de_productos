@@ -1,0 +1,41 @@
+:root{
+    --color-gris:#5E5E38;
+    --color-naranja:#775504;
+    --color-negro: #43464C;
+    --color-piel: #A09E79;
+    --color-verde: #4C6427;
+}
+.circulo, .circulo2{
+    
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.circulo{
+    height: 1100px;
+    width: 90vw;
+    background: transparent;
+    border: 55px solid var(--color-gris);
+    top: -260px;
+    left: 1020px;
+    /* #AEA260 */
+}
+.circulo2{
+    height: 1110px;
+    width: 95vw;
+    background-color: white;
+    top: -270px;
+    left: 1150px;
+}
+
+.circulo--detail{
+    top: -260px;
+    left: -770px;
+}
+
+.circulo2--detail{
+    top: -260px;
+    left: -960px;
+}

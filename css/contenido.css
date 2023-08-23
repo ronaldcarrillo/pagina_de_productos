@@ -1,0 +1,77 @@
+.block__collection{
+    width: 30vw;
+}
+.block__collection h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.block__collection p{
+    margin-top: 20px;
+}
+.button__collection{
+    margin-top: 20px;
+    display: flex;
+    width: 340px;
+    height: 35px;
+    justify-content: space-between;
+}
+
+/*Botones*/
+.button__collection button{
+    width: 170px;
+}
+.button__collection__l{
+    background-color: #AEA260;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.button__collection__r{
+    border: none;
+    background: transparent;
+}
+
+/*Imagen Mueble*/
+.block__img img{
+    width: 40vw;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.block__colors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1px;
+}
+.block__colors h2{
+    margin-top: 20px;
+}
+.opciones__colores{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.opciones__colores .space{
+    margin-bottom: 15px;
+}
+
+.space{
+    margin-bottom: 15px;
+}
+
+.block__colors button{
+    background: transparent;
+    border: none;
+}
+.btn__size{
+    font-size: 35px;
+    color: #AEA260;
+}
+.block__colors :nth-child(3){
+    color: #a8a5a5;
+    font-weight: bold;
+}
+.block__colors :nth-child(4){
+    font-weight: bold;
+}
